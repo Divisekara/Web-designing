@@ -28,6 +28,19 @@ body{
  margin:auto;
 }
 
+.XX{
+ margin-top:10px black solid;
+ margin-bottom:10px red solid;
+ margin-right:10px blue solid;
+ margin-left:10px green solid;
+
+ border-top:5px black solid;
+ border-bottom:5px red solid;
+ border-right:5px blue solid;
+ border-left:5px green solid;
+
+}
+
 h1{
  color:green;
 }
