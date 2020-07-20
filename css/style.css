@@ -11,7 +11,6 @@ body{
 
  line-height:1.6em;
  margin:0;
-
 }
 
 .mainTwoLines{
@@ -22,8 +21,13 @@ body{
  background-color:blue;
  color:#fff;
 }
+.container{
+ /*960 pixels is the most famous size*/
+ /*its suitable to use a percentage as 80%*/
+ width:80%;
+ margin:auto;
+}
 
 h1{
  color:green;
-
 }
