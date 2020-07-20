@@ -1,3 +1,10 @@
+/*
+*{
+ margin:;
+ padding;:
+}
+*/
+
 body{
  background-color:pink;
  color:red;
@@ -21,6 +28,7 @@ body{
  background-color:blue;
  color:#fff;
 }
+
 .container{
  /*960 pixels is the most famous size*/
  /*its suitable to use a percentage as 80%*/
@@ -28,16 +36,40 @@ body{
  margin:auto;
 }
 
-.XX{
- margin-top:10px black solid;
- margin-bottom:10px red solid;
- margin-right:10px blue solid;
- margin-left:10px green solid;
+.para2{
 
- border-top:5px black solid;
- border-bottom:5px red solid;
- border-right:5px blue solid;
- border-left:5px green solid;
+ border-top:5px black dotted;
+ border-bottom:5px red dotted;
+ border-right:5px blue dotted;
+ border-left:5px green dotted;
+
+ padding-top:20px;
+ padding-bottom:20px;
+ padding-right:30px;
+ padding-left:30px;
+
+ /*same as above*/
+ padding:20px;
+
+ 
+ margin-top:10px;
+ margin-bottom:10px;
+ margin-right:10px;
+ margin-left:10px;
+
+ /*same as above*/
+ margin:10px;
+
+}
+
+.para2 h2{
+ font-family:cursive;
+ font-weight:100;
+ font-style:italic;
+ text-decoration:underline;
+ text-transform:uppercase;
+ letter-spacing: 0.2em;
+ word-spacing:1em;
 
 }
 
