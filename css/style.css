@@ -59,7 +59,6 @@ body{
 
  /*same as above*/
  margin:10px;
-
 }
 
 .para2 h2{
@@ -94,7 +93,8 @@ body{
 
 .category1 li{
 padding-bottom:8px;
-border-bottom:dotted 1px #333
+border-bottom:dotted 1px #333;
+list-style-image: url('/images/check.png');
 
 }
 
@@ -118,3 +118,9 @@ a:visited{
 h1{
  color:green;
 }
+
+
+
+
+
+
