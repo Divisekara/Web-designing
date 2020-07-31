@@ -5,6 +5,9 @@
 2.constants
 3.primitive types
 4.Dynamic typing (we have two types static and dynamic but javascript is dynamic )
+5.Objects
+6.Arrays
+7.Functions
 
 */
 
@@ -63,4 +66,38 @@ name1 = 10;
 
 console.log(typeof name1, '//variable type changed thats why dynamic');
 
+let person = {   //these curly braces is called object literal key values are the property
+name2: 'divi',
+age1: 120
+};
+
+console.log(person);
+
+//This is the dot notation
+person.name2 = 'indra';
+console.log(person.name2);
+
+//Bracket notation
+person['name2'] = 'Mary';
+console.log(person['name2'])
+
+// Arrays: Lists
+
+let colors = ['red','blue','green']; //These square brackets called array literal
+
+console.log(colors) //Content of the array is dynamic. changable
+
+console.log(colors[0]);
+//importance of the javascript array is list items can be different types. But other programming languages it might not happen. 
+
+colors[3] = 'yellow';
+colors[2] = 123;
+
+console.log(colors)
+console.log(colors.length);
+
+function greet(){
+console.log('Hello world');
+
+}
 
