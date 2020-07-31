@@ -96,8 +96,15 @@ colors[2] = 123;
 console.log(colors)
 console.log(colors.length);
 
-function greet(){
-console.log('Hello world');
 
+//Functions 
+function greet(){ 
+console.log('Hello world');
 }
+
+greet();
+
+
+
+
 
