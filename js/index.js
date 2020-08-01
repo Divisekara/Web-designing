@@ -8,7 +8,7 @@
 5.Objects
 6.Arrays
 7.Functions
-
+8.Types of functions
 */
 
 let name = 'asitha';
@@ -98,13 +98,16 @@ console.log(colors.length);
 
 
 //Functions 
-function greet(){ 
-console.log('Hello world');
+function greet(firstName, lastName){ 
+console.log(firstName + ' , Hello bokka', lastName);
 }
 
-greet();
+greet('asitha', 'divisekara');
+greet('mary', 'john');
 
 
+function square(number){
+return number * number;
+}
 
-
-
+console.log(square(10));
