@@ -9,6 +9,9 @@
 6.Arrays
 7.Functions
 8.Types of functions
+9. if else
+10.local variables and global variables
+
 */
 
 let name = 'asitha';
@@ -111,3 +114,38 @@ return number * number;
 }
 
 console.log(square(10));
+
+let multi = 2.1*1.1; //multiplication
+let remainder = 11 % 3; //remainder
+let quotient = 11 / 3;
+console.log(multi, remainder, quotient);
+
+let name3 = 'Lovelace';
+let secondLetter = name3[1];
+console.log(name3[3], secondLetter);
+
+let myList = [['cereal', 4], ['milk', 5], ['mango',6]];
+
+let myGlobal = 10; //this is a global variable
+
+function fun2(){
+ let output = "";
+ if(typeof myGlobal != "undefined"){
+  output += "myGlobal: " + myGlobal; 
+ }
+ else{
+   output += "myGloabl is not a global variable";
+ }
+ console.log(output);
+}
+
+fun2(); // in order to check the gloabl variabality
+
+//global vs local variables
+
+function nextInLine(arr, item){
+ return item;
+}
+
+let array1 = [1,2,3,4,5];
+fun3(array1, )
