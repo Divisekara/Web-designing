@@ -1,0 +1,26 @@
+
+
+.top-container {
+ background-color: coral;
+ height: 200px;
+ width: 200px;
+ padding: 10px;
+ margin: 10px;
+ border:solid black;
+}
+
+.middle-container{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    border:solid black 20px;
+}
+
+.bottom-container{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border:solid black 10px;
+}
+
+
