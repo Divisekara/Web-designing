@@ -1,0 +1,13 @@
+body{
+    padding: 1em;
+}
+
+/*----- Carousel-item -----*/
+.carousel-item{
+    height: 100vh;
+    border: 5px solid brown;
+}
+
+
+
+
