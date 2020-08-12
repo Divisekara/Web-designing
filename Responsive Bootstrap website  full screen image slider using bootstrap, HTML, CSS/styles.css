@@ -5,9 +5,14 @@ body{
 /*----- Carousel-item -----*/
 .carousel-item{
     height: 100vh;
-    border: 5px solid brown;
+    border: 5px solid black;
 }
 
-
+.alert{
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    text-decoration: underline;
+}
 
 
