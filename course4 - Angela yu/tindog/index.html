@@ -7,7 +7,7 @@
     <title>TinDog</title>
     
     <!--Google embedded fonts-->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
 
     <!-- Bootstarp.min.css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
@@ -24,12 +24,15 @@
     <!-- bootstrap.min.js -->
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
 
+    <!-- Font awesome embedding -->
+    <script src="https://kit.fontawesome.com/3f8a9f4110.js" crossorigin="anonymous"></script>
+
 </head>
 
 <body>
 
   <section id="title">
-
+    <div class="container-fluid">
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark ">
         <a class="navbar-brand" href="">tindog</a>
@@ -54,6 +57,7 @@
             </ul>
         </div>
     </nav> 
+    
 
     <!-- Title -->
 
@@ -61,31 +65,52 @@
 
         <div class="col-lg-6">
             <h1>Meet new and interesting dogs nearby.</h1>
-            <button type="button">Download</button>
-            <button type="button">Download</button>
+            <button type="button" class="btn btn-dark btn-lg download-button"><i class="fab fa-apple"></i>Download</button>
+            <button type="button" class="btn btn-outline-light btn-lg download-button"><i class="fab fa-google-play"></i>Download</button>
         </div>
     
         <div class="col-lg-6">
-            <img src="images/iphone6.png" alt="iphone-mockup">
+            <img class="title-image" src="images/iphone6.png" alt="iphone-mockup">
         </div>
 
     </div>
-
+    </div>
   </section>
 
+  <div class="container" style="background-color:red;">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis facere harum molestias numquam veniam facilis quam itaque cum minus ullam? Ipsa iste explicabo ducimus, quae nemo cumque numquam pariatur expedita?
+
+  </div>
+
+
+  <div class="container-fluid" style="background-color:yellow;">
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis facere harum molestias numquam veniam facilis quam itaque cum minus ullam? Ipsa iste explicabo ducimus, quae nemo cumque numquam pariatur expedita?
+
+  </div>
   <!-- Features -->
 
   <section id="features">
+        <div class="row">
+            <div class="feature-box col-lg-4">
+                <i class="icon fas fa-check-circle fa-4x"></i>
+                <h3>Easy to use.</h3>
+                <p>So easy to use, even your dog could do it.</p>
+            </div>
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+            <div class="feature-box col-lg-4">
+                <i class="icon fas fa-bullseye fa-4x "></i>
+                <h3>Elite Clientele</h3>
+                <p>We have all the dogs, the greatest dogs.</p>
+            </div>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+            <div class="feature-box col-lg-4">
+                <i class="icon fas fa-heart fa-4x"></i>
+                <h3>Guaranteed to work.</h3>
+                <p>Find the love of your dog's life or your money back.</p>
+            </div>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
-
+        </div>
+    </div>
   </section>
 
   <!-- Testimonials -->
@@ -93,7 +118,7 @@
   <section id="testimonials">
 
     <h2>I no longer have to sniff other dogs for love. I've found the hottest Corgi on TinDog. Woof.</h2>
-    <img src="images/dog-img.jpg" alt="dog-profile">
+    <img class="testimonial-image" src="images/dog-img.jpg" alt="dog-profile">
     <em>Pebbles, New York</em>
 
     <!-- <h2 class="testimonial-text">My dog used to be so lonely, but with TinDog's help, they've found the love of their life. I think.</h2>
@@ -105,10 +130,10 @@
   <!-- Press -->
 
   <section id="press">
-    <img src="images/techcrunch.png" alt="tc-logo">
-    <img src="images/tnw.png" alt="tnw-logo">
-    <img src="images/bizinsider.png" alt="biz-insider-logo">
-    <img src="images/mashable.png" alt="mashable-logo">
+    <img class="press-logo" src="images/techcrunch.png" alt="tc-logo">
+    <img class="press-logo" src="images/tnw.png" alt="tnw-logo">
+    <img class="press-logo" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="press-logo" src="images/mashable.png" alt="mashable-logo">
 
   </section>
 
