@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example responsive header</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navigation-bar">
+
+                <div class="logo">
+                    <img src="images/logo.png" alt="logo" width="150px">
+                </div>
+
+                <nav class="Navigation-items">
+                    <ul id="menuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">account</a></li>
+                        <li><a href="">Servicese</a></li>
+                    </ul>
+                </nav>
+
+                <img src="images/cart.png" alt="cart"  width="30px" height="30px">
+
+                <img src="images/menu.png" alt="menu" class="menu-icon" onclick="menutoggle()">
+
+            </div>
+
+            <div class="row-1">
+                <div class="col-2">
+
+                    <h1>This is an example <br>header.</h1>
+                    <p>I do this in ordr to take an good idea to make a beautiful and responsive header for any website.</p>
+
+                    <a href="" class="btn">Explore More &#8594</a>
+
+                </div>
+                
+                <div class="col-2">
+                    <img src="images/image1.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+<!-- --------------js for toggle menu---------- -->
+        <script>
+            var menuItems = document.getElementById("menuItems");
+
+            menuItems.style.maxHeight = "0px";
+
+            function menutoggle(){
+                if(menuItems.style.maxHeight == "0px")
+                {
+                    menuItems.style.maxHeight = "400px";
+                }
+                else
+                {
+                    menuItems.style.maxHeight = "0px";
+                }
+            }
+        </script>
+
+
+</body>
+
+</html>
